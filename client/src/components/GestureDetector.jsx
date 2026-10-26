@@ -1,8 +1,7 @@
-
 const GestureDetector = () => {
   return (
-    <div>GestureDetector</div>
-  )
-}
+    <video width="640" height="480" style={{ display: "none" }} autoPlay muted />
+  );
+};
 
-export default GestureDetector
+export default GestureDetector;
