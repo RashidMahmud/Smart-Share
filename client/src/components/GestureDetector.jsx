@@ -1,6 +1,17 @@
+import { useRef } from "react";
+
 const GestureDetector = () => {
+  const videoRef = useRef();
+
   return (
-    <video width="640" height="480" style={{ display: "none" }} autoPlay muted />
+    <video
+      ref={videoRef}
+      width="640"
+      height="480"
+      style={{ display: "none" }}
+      autoPlay
+      muted
+    />
   );
 };
 
